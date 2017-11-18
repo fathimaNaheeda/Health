@@ -7,6 +7,7 @@ public class AdminBean implements Serializable {
 	/**
 	 * 
 	 */
+	//fa
 	private static final long serialVersionUID = 6083941016563604131L;
 	private int adminId;
 	private String firstName;
