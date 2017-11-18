@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="LaboratiesBaseLayout" template="/WEB-INF/views/laboraties/baseLayoutLab.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/laboraties/headerLab.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/views/laboraties/footerlab.jsp"></put-attribute>
+		<put-attribute name="menu" value="//WEB-INF/views/laboraties/menuLab.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/laboraties/laboratiesBody.jsp"></put-attribute>
+	</definition>
+<!-- 		<definition name="getLabsBoard" extends="LaboratiesBaseLayout"></definition>
+ -->	
+
+	
+	<!-- <definition name="getLaboratiesBoard" extends="LaboratiesBaseLayout">
+	<put-attribute name="body" value="/WEB-INF/views/laboraties/laboratiesBoard.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="getLabFormDef" extends="getLaboratiesBoard">
+	  <put-attribute name="body" value="/WEB-INF/views/laboraties/addLaboraties.jsp"></put-attribute>
+	
+	</definition>
+	
+	<definition name="editLaboratiesDef" extends="LaboratiesBaseLayout">
+	  <put-attribute name="body" value="/WEB-INF/views/laboraties/editLaboraties.jsp"></put-attribute>
+	
+	</definition>
+	 -->
+	</tiles-definitions>
